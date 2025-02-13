@@ -37,10 +37,6 @@ const MapLegend = () => {
               <p className="text-sm text-gray-600">Data Protection Impact Assessment</p>
             </div>
             <div>
-              <h4 className="font-medium text-gray-700">IRA</h4>
-              <p className="text-sm text-gray-600">Impact Risk Assessment</p>
-            </div>
-            <div>
               <h4 className="font-medium text-gray-700">PRA</h4>
               <p className="text-sm text-gray-600">Private Right of Action</p>
             </div>
