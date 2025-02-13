@@ -46,7 +46,7 @@ const MapLegend = () => {
             </div>
             <div>
               <h4 className="font-medium text-gray-700">Data Security</h4>
-              <p className="text-sm text-gray-600">Processor should establish, implement, and maintain reasonable administrative, technical, and physical data security practices appropriate to the volume and nature of the personal data at issue & DPIA</p>
+              <p className="text-sm text-gray-600">Processor should establish, implement, and maintain reasonable administrative, technical, and physical data security practices appropriate to the volume and nature of the personal data at issue.</p>
             </div>
             <div>
               <h4 className="font-medium text-gray-700">General Exception</h4>
