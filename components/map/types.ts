@@ -3,6 +3,15 @@ export interface StateProperties {
   name: string;
 }
 
+interface BillDetails {
+  id: string;
+  title: string;
+  description: string;
+  status: string;
+  lastUpdated: string;
+  summary: string;
+}
+
 export interface StateDetails {
   name: string;
   laws: string;
