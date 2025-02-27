@@ -12,8 +12,10 @@
   "dependencies": {
     "@aws-sdk/client-s3": "^3.744.0",
     "@aws-sdk/s3-request-presigner": "^3.744.0",
+    "@radix-ui/react-dialog": "^1.1.6",
     "@types/d3-geo": "^3.1.0",
     "@types/dotenv": "^6.1.1",
+    "clsx": "^2.1.1",
     "d3-geo": "^3.1.1",
     "dotenv": "^16.4.7",
     "lucide-react": "^0.475.0",
@@ -21,10 +23,12 @@
     "react": "^18",
     "react-dom": "^18",
     "react-simple-maps": "^3.0.0",
+    "tailwind-merge": "^3.0.1",
     "ts-node": "^10.9.2",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
+    "@shadcn/ui": "^0.0.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
