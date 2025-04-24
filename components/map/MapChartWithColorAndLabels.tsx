@@ -26,7 +26,8 @@ const COLOR_GROUPS = {
   GRAY: "#d1d5d7",
   ORANGE: "#f7b489",
   GREEN: "#94f599",
-  RED: "#FF0000"
+  RED: "#FF0000",
+  DARK_GREEN: "#2a8835" // Added dark green color
 };
 
 // States grouped by color
@@ -51,7 +52,10 @@ const stateGroups = {
     "Indiana", "Iowa", "Kentucky", "Montana",
     "Nebraska", "New Hampshire", "New Jersey", "Oregon",
     "Rhode Island", "Tennessee", "Texas", "Utah",
-    "Virginia", "Washington"
+    "Virginia"
+  ],
+  darkGreen: [
+    "Washington" // Added Washington to dark green group
   ]
 };
 
@@ -60,7 +64,8 @@ const stateColors = Object.fromEntries([
   ...stateGroups.gray.map(state => [state, COLOR_GROUPS.GRAY]),
   ...stateGroups.orange.map(state => [state, COLOR_GROUPS.ORANGE]),
   ...stateGroups.green.map(state => [state, COLOR_GROUPS.GREEN]),
-  ...stateGroups.red.map(state => [state, COLOR_GROUPS.RED])
+  ...stateGroups.red.map(state => [state, COLOR_GROUPS.RED]),
+  ...stateGroups.darkGreen.map(state => [state, COLOR_GROUPS.DARK_GREEN])
 ]);
 
 // State code mapping

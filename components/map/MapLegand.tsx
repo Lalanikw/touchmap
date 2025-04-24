@@ -10,6 +10,10 @@ const MapLegend = () => {
           <h3 className="text-lg font-semibold text-gray-800 mb-3">Color Code</h3>
           <div className="space-y-2">
             <div className="flex items-center space-x-3">
+              <div className="w-6 h-6 bg-[#198b1f] rounded"></div>
+              <span className="text-sm text-gray-600">unique security exception</span>
+            </div>
+            <div className="flex items-center space-x-3">
               <div className="w-6 h-6 bg-[#94f599] rounded"></div>
               <span className="text-sm text-gray-600">Security Exceptions Available</span>
             </div>
