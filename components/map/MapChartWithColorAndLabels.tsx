@@ -50,12 +50,12 @@ const stateGroups = {
   green: [
     "Colorado", "Connecticut", "Delaware", "Florida",
     "Indiana", "Iowa", "Kentucky", "Montana",
-    "Nebraska", "New Hampshire", "New Jersey", "Oregon",
+    "Nebraska", "New Hampshire", "New Jersey", 
     "Rhode Island", "Tennessee", "Texas", "Utah",
     "Virginia"
   ],
   darkGreen: [
-    "Washington" // Added Washington to dark green group
+    "Washington", "Oregon" // Added Washington to dark green group
   ]
 };
 
