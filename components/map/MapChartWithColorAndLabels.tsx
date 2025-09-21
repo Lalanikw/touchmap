@@ -42,7 +42,7 @@ const stateGroups = {
     "Vermont", "West Virginia", "Wisconsin", "Wyoming"
   ],
   orange: [
-    "California", "Massachusetts", "Minnesota"
+    "Massachusetts", "Minnesota"
   ],
   red: [
     "Illinois"
@@ -52,10 +52,10 @@ const stateGroups = {
     "Indiana", "Iowa", "Kentucky", "Montana",
     "Nebraska", "New Hampshire", "New Jersey", 
     "Rhode Island", "Tennessee", "Texas", "Utah",
-    "Virginia"
+    "Virginia", "Oregon", "California"
   ],
   darkGreen: [
-    "Washington", "Oregon" // Added Washington to dark green group
+    "Washington"  // Added Washington to dark green group
   ]
 };
 
